@@ -1,0 +1,40 @@
+/*header*/
+.header {
+  padding: 30px 0 0;
+
+}
+
+.header__top {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.btn__wrapper {
+  align-items: center;
+  gap: 11px;
+}
+
+.burger {
+  display: none;
+}
+@media (max-width: 786px) {
+ 
+  .header {
+    padding: 23px 0 0;
+  }
+
+  .header__top {
+    margin-bottom: 20px;
+  }
+
+  .btn__wrapper {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+
+}

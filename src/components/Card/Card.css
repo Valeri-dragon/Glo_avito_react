@@ -1,0 +1,43 @@
+.content__item {
+  width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
+  /* max-width: 264px; */
+  margin-bottom: 15px;
+}
+.advert__link {
+  cursor: pointer;
+  color: var(--color-gray);
+  line-height: 17px;
+}
+
+.advert__img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 178px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.advert__title {
+  margin-bottom: 7px;
+  color: var(--color-body);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: .1px;
+  transition: color 0.3s ease-in-out;
+}
+
+.advert__link:hover .advert__title {
+  color: #256EEB;
+}
+
+.advert__price {
+  color: var(--color-body);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+.advert__adress {
+  margin-bottom: 4px;
+}
