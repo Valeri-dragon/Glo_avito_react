@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import './Header.css'
 
-export const Header = () =>{
+export const Header = () => {
   return (
 <header className="header">
     <div className="container ">
