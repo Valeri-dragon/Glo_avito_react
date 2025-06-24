@@ -1,6 +1,5 @@
 {
-  "homepage": "https://valeri-dragon.github.io/Glo_avito_react",
-  "name": "avito_app",
+   "name": "avito_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +13,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
     "build": "react-scripts build"
     },
