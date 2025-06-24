@@ -1,12 +1,14 @@
+import { Link } from "react-router";
 import './Header.css'
+
 export const Header = () =>{
   return (
 <header className="header">
     <div className="container ">
       <div className="header__top flex">
-        <a href="#!" className="header__logo">
-          <img src="img/logotype.svg" alt="Logotype" />
-        </a>
+        <Link  to={"/"} className="header__logo">
+          <img src="/img/logotype.svg" alt="Logotype" />
+        </Link>
         <nav className="nav">
           <ul className="list__reset nav__header">
           </ul>
