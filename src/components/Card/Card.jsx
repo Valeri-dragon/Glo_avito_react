@@ -8,7 +8,7 @@ export const Card = (card) =>{
                   <h3 className="advert__title">{card.title}</h3>
                   <p className="advert__price">{card.price} <span className="advert__price--icon">{card.currency}</span> </p>
                   <p className="advert__adress">{card.address}</p>
-                  <div className="advert__time">{card.time_publ}</div>
+           <time datetime="2025-07-10T11:39" className="advert__time">{card.time_publ}</time>
                 </a>
               </article>
             </li> 
